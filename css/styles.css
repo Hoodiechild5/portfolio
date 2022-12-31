@@ -1,11 +1,76 @@
+font-face {
+    font-family: 'adventpro';
+    src: url('/css/adventpro-bold-webfont.woff') format('woff'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+font-face {
+    font-family: 'adventpro';
+    src: url('/css/adventpro-light-webfont.woff') format('woff'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+font-face {
+    font-family: 'adventpro';
+    src: url('/css/adventpro-regular-webfont.woff') format('woff'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+font-face {
+    font-family: 'adventpro';
+    src: url('/css/adventpro-medium-webfont.woff') format('woff'),
+    font-weight: normal;
+    font-style: normal;
+}
 body {
-background-color: chocolate;
- color: aliceblue;
+    background-color: darkgray;
+    margin: 0;
+    font-family: system-ui;
+}
 
+h1,
+h2 {
+   font-family: 'adventpro';
+color: black ;
+font-weight: 400;
+}
+p 
+h3 {
+    font-family: 'adventpro-bold-webfont';
+    font-weight: 700;
+}
 
+.hero { 
+    background-color: antiquewhite;
+    color: whitesmoke;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("../images/God-Of-War-PC-Wallpaper-2020-scaled.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+}
 
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+p {
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+    color: gold;
+}
 
+.hand {
+    cursor: pointer;
+}
 
-
-
+.not-allowed{
+    cursor: not-allowed;
 }
